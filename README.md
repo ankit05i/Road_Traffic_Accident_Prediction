@@ -50,6 +50,7 @@ Road_Traffic_Accident_Prediction/
 ├── documentation/              # Project documentation
 ├── requirements.txt            # Python dependencies
 ├── main.py                     # Main execution script
+├── app.py                      # for deploy
 └── README.md                   # This file
 ```
 
@@ -90,7 +91,7 @@ MAPMYINDIA_API_KEY=your_mapmyindia_api_key_here
 Execute the complete pipeline:
 
 ```bash
-python main.py
+python app.py
 ```
 
 This will:
